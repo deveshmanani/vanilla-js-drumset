@@ -37,6 +37,12 @@ body {
   gap: 8px;
   cursor: pointer;
 }
+.child.playing {
+  transition: all 0.1s ease;
+  transform: scale(1.1);
+  border: 1px solid var(--accent);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 .drum-key {
   font-weight: 700;
   color: var(--accent);
